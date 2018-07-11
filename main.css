@@ -25,3 +25,37 @@ body {
   color: yellow;
   display: block;
 }
+
+.form {
+  background-color: white;
+  min-width: 300px;
+  width: 60%;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  text-align: center;
+}
+
+label, input, select {
+    display: inline-block;
+}
+
+label {
+    width: 40%;
+    text-align: right;
+}
+
+label + input, select {
+    width: 30%;
+    margin: 10px 20% 0 4%;
+}
+
+#submit {
+  width: 20%;
+  margin: 0 40%;
+  color: red;
+}

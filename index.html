@@ -12,5 +12,48 @@
 <body>
   <h1 class="heading"><span>Are you bananas for</span>BANANAS</h1>
 
+  <form action="action.php" method="post" class="form">
+    <fieldset>
+      <legend>GIVE ME BANANA</legend>
+      <label for="banana">Banana Type:</label>
+      <select name="banana" id="banana">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+      </select>
+      <label for="quantity">Quantity (by dozen):</label>
+      <input type="number" name="day" min="1" max="10" placeholder="1">
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Information</legend>
+      <label for="firstname">First Name:</label>
+      <input name="firstname" id="firstname" type="text" placeholder="first name" maxlength="22" required autofocus>
+
+      <label for="lastname">Last Name:</label>
+      <input name="lastname" id="lastname" type="text" placeholder="last name" maxlength="22" required>
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="password" placeholder="password" maxlength="16" required>
+      <label for="email">Email:</label>
+      <input name="email" id="email" type="email" placeholder="email" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <label for="street">Address Line 1:</label>
+      <input name="street" id="street" type="text" placeholder="123 example st" maxlength="30" required>
+      <label for="city">City:</label>
+      <input name="city" id="city" type="text" maxlength="30" required>
+      <label for="state">State:</label>
+      <input name="state" id="state" type="text" maxlength="30" required>
+      <label for="zip">ZIP Code:</label>
+      <input name="zip" id="zip" type="number" maxlength="7" required>
+      <label for="country">Country:</label>
+      <input name="city" id="city" type="text" maxlength="30" required>
+    </fieldset>
+
+    <input type="submit" id="submit" value="Place Order">
+  </form>
+
 </body>
 </html>
