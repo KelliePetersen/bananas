@@ -22,11 +22,11 @@
         <option value="c">C</option>
       </select>
       <label for="quantity">Quantity (by dozen):</label>
-      <input type="number" name="day" min="1" max="10" placeholder="1">
+      <input type="number" name="quantity" min="1" max="10" placeholder="1" required>
     </fieldset>
 
     <fieldset>
-      <legend>Contact Information</legend>
+      <legend>CONTACT INFORMATION</legend>
       <label for="firstname">First Name:</label>
       <input name="firstname" id="firstname" type="text" placeholder="first name" maxlength="22" required autofocus>
 
@@ -39,9 +39,11 @@
     </fieldset>
 
     <fieldset>
-      <legend>Address</legend>
+      <legend>ADDRESS</legend>
       <label for="street">Address Line 1:</label>
-      <input name="street" id="street" type="text" placeholder="123 example st" maxlength="30" required>
+      <input name="street" id="street" type="text" placeholder="123 Example St" maxlength="30" required>
+      <label for="apartment">Address Line 2:</label>
+      <input name="apartment" id="apartment" type="text" placeholder="Apt 1337" maxlength="30" required>
       <label for="city">City:</label>
       <input name="city" id="city" type="text" maxlength="30" required>
       <label for="state">State:</label>
